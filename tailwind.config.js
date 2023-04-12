@@ -6,7 +6,11 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx}"
 	],
 	theme: {
-		extend: {}
+		extend: {},
+		screens: {
+			tbl: { max: "480px" }
+			// => @media (min-width: 640px) { ... }
+		}
 	},
 	plugins: []
 };

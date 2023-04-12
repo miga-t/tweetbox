@@ -54,8 +54,6 @@ export const Sidebar = () => {
 							label="Logout"
 						/>
 					)}
-
-					<SidebarTweetButton />
 				</div>
 			</div>
 		</div>
